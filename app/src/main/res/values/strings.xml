@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">FAHIM</string>
+    <string name="accessibility_service_label">UI tree capture</string>
+    <string name="accessibility_service_description">Captures the current app accessibility tree only when you enable this technical demo service.</string>
+</resources>

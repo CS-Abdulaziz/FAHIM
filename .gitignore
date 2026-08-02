@@ -1,0 +1,3 @@
+# Whisper model assets are intentionally provisioned locally, never versioned.
+app/src/main/assets/models/*.bin
+.whisper-model-backup/
