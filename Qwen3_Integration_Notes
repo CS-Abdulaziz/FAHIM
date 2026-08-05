@@ -1,0 +1,22 @@
+# Decision Engine (Qwen3-4B-Instruct) Evaluation Documentation
+
+## Overview
+This document outlines the evaluation environment, integration scripts, and performance results for the **Qwen3-4B-Instruct** model, which serves as the core Decision Engine for the VoiceAgent system.
+
+## 1. Integration & Testing Scripts
+The following Python scripts are utilized to manage the API communication and execute automated evaluations:
+
+* **`api_gateway.py`**
+  Manages the API Gateway infrastructure. It acts as the primary integration point, responsible for receiving incoming requests, routing them to the model, and returning the structured responses.
+* **`eval_runner_v3.py`**
+  The primary execution script for model evaluation. It processes predefined test fixtures and feeds them into the model to assess its command comprehension, context awareness, and decision-making accuracy.
+* **`test_eval_runner_v3.py`**
+  Contains the unit tests for the evaluation runner (`eval_runner_v3.py`). This ensures the integrity and reliability of the evaluation metrics before any benchmark results are finalized.
+
+## 2. System Prompts & Configurations
+* **`decision_engine_system_prompt_v3_3.md`**
+  The latest iteration (v3.3) of the system prompt. This file contains the precise instructions, operational constraints, and behavioral guidelines provided to the model to ensure it accurately understands user context and functions effectively as a voice assistant.
+
+## 3. Evaluation Benchmark Results
+* **`results_Qwen3-4B-Instruct...` (Excel files)**
+  These spreadsheets contain the tabulated benchmark results from the recent evaluation runs. They document the model's performance metrics, decision accuracy, and edge-case handling based on the tested fixtures. These metrics are critical for determining the readiness for the upcoming Planner integration.
