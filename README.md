@@ -2,7 +2,7 @@
 
 **Framework for Arabic Human-centered Interaction on Mobile.** FAHIM is an Android accessibility assistant that lets blind and visually impaired users complete multi-step phone tasks by speaking a goal in Arabic, instead of navigating the screen one element at a time.
 
-> Capstone project, KAUST Artificial Intelligence Program (2026). Research prototype; not publicly released.
+> Capstone project, KAUST Artificial Intelligence Program (2026).
 
 ---
 
@@ -111,4 +111,4 @@ python eval_runner_v3.py \
 
 ## Team
 
-Nawaf bin Jurayyan, Ammar Abdulrahman, Khaled Alshahry and Abdulaziz Batis, supervised by Dr. Muhammad Mubashar.
+Nawaf bin Jurayyan, Ammar Abdulrahman, Khaled Alshahry and Abdulaziz Khamis, supervised by Dr. Muhammad Mubashar.
